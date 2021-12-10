@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/logos/logo_gds.png" type="image/png" />
+    <title>Mi portfolio</title>
+    <meta name="description" content="Pagina web destinada a mostrar mis habilidades y trabajos realizados">
+    <meta name="author" content="Jorge Oswaldo Ramirez Del Aguila" />
+    <meta name="robots" content="index.html" />
+
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ebca90df98.js" crossorigin="anonymous"></script>
+
+    <!-- Vendor CSS Files -->
+    <link rel="preload" href="assets/vendor/aos/aos.css" as="style">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preload" href="assets/vendor/boxicons/css/boxicons.min.css" as="style">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preload" href="assets/vendor/glightbox/css/glightbox.min.css" as="style">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link rel="preload" href="assets/vendor/swiper/swiper-bundle.min.css" as="style">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Formulario de MailChimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px 'Popins', Helvetica, Arial, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header id="cabecera" class="cabecera">
+        <div class="video">
+            <video muted="muted" autoplay loop playsinline allow=autoplay poster="assets/img/oficina.webp">
+                <source src="assets/img/video/computer.mp4?muted=1" type="video/mp4" >
+            </video>
+        </div>
+
+        <div class="navegacion__movil">
+            <div class="_layer top"></div>
+            <div class="_layer mid"></div>
+            <div class="_layer bottom"></div>
+        </div>
+
+        <nav id="myDIV" class="menuppal">
+     
+            <a href="#cabecera" class="item" onclick="myFunction()">
+                <i class="bi bi-house-door"></i>
+                Inicio
+            </a>
+            <a href="#nosotros" class="item" onclick="myFunction()">
+                <i class="bi bi-person"></i>
+                Nosotros
+            </a>
+            <a href="#habilidades" class="item" onclick="myFunction()">
+                <i class="bi bi-keyboard"></i>
+                Habilidades
+            </a>
+            <a class="item" href="#portfolio" onclick="myFunction()">
+                <i class="bi bi-journals"></i>
+                Portfolio
+            </a>
+            <a class="item" href="#contacto" onclick="myFunction()">
+                <i class="bi bi-envelope"></i>
+                Contacto
+            </a>
+        </nav>
+
+        <div class="titulo__principal">
+            <div class="titulo">
+                <h1 class="titulo__principal-nombre">Jorge 0. Ramirez Del Aguila</h1>
+                <p class="titulo__principal-subtitulo">
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Administrador BD","Desarrollador","Freelancer", "Frontend"  ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </p>
+            </div>
+            
+            <div class="redes redes-pie">
+                <a href="https://api.whatsapp.com/send?phone=+51961638535&text=Hola" target="_blank"><i
+                        class='pie-iconos bx bxl-whatsapp'></i></a>
+                <a href="https://t.me/SystemGDS" target="_blank"><i class='pie-iconos bx bxl-telegram'></i></a>
+                
+                <a href="https://www.instagram.com/systemgds/" target="_blank"><i class="pie-iconos bx bxl-instagram"></i></a>
+
+                <a href="https://github.com/SysteMGDS" target="_blank"><i class='pie-iconos bx bxl-github'></i></a>
+            </div>
+        </div>
+        
+        <div class="flecha">
+            <a href="#main">
+                <i class="bi bi-mouse2"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <main id="main">
+
+        <section id="nosotros" class="sobremi contenedor">
+            <div class="">
+                <div class="subtitulo" data-aos="fade-up">
+                    <h2>Acerca de</h2>
+                </div>
+                <p class="subtitulo-parrafo" data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius
+                    consequatur
+                    ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                    qui
+                    impedit
+                    suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+
+                <div class="contenido-seccion" data-aos="fade-up">
+                    <div class="seccion__imagen card">
+                        <img loading="lazy" class="card-img-top"  src="./assets/img/oficina.webp" alt="Imagen de nuestra oficina">
+                        <div class="card-body p-5">
+                            <h4 class="card-title">Diseño Web</h4>
+                            <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                        </div>
+                    </div>
+
+                    <div class="seccion__texto">
+                        <h3>Administrar Base de Datos SqlServer y Oracle</h3>
+                        <p class="subtitulo-parrafo" data-aos="fade-up">
+                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                            Sit
+                        </p>
+                    </div>
+
+                    <div class="seccion__texto">
+                        <h3>Diseño y desarrolo Web</h3>
+                        <p class="subtitulo-parrafo" data-aos="fade-up">
+                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                            Sit
+                        </p>
+                    </div>
+                </div>
+                <!--contenido-seccion-->
+            </div>
+            <!--.contenedor-->
+        </section>
+
+
+        <!-- ======= Habilidades Section ======= -->
+        <section id="habilidades" class="habilidades contenedor">
+            <div class="subtitulo" data-aos="fade-up">
+                <h2>Habilidades</h2>
+            </div>
+            
+            <article class="articulo">
+                
+                <div class="habilidades__contenido" data-aos="fade-up">
+                    <div class="habilidades__contenido-img">
+                        <img loading="lazy" src="assets/img/logos/html5.png" alt="Logo HTML-5">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="habilidades__contenido-img">
+                        <img loading="lazy" src="assets/img/logos/css3.png" alt="Logo css-3">
+                        <p>CSS</p>
+                    </div>
+                    <div class="habilidades__contenido-img">
+                        <img loading="lazy" src="assets/img/logos/js.png" alt="Logo javaScript">
+                        <p>Java-Script</p>
+                    </div>
+                    <div class="habilidades__contenido-img">
+                        <img loading="lazy" src="assets/img/logos/react.jpg" alt="Logo react">
+                        <p>React-JS</p>
+                    </div>
+                </div>
+                <ul class="subtitulo-parrafo lista" data-aos="fade-up">
+                    <li>
+                        <div class="lista__titulo">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML</h4>
+                        </div>
+                        <p>(Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. ... "Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Dominio un 90%
+                        </p>
+                    </li>
+                    <li>
+                        <div class="lista__titulo">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS</h4>
+                        </div>
+                        <p>CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web e interfaces de usuario escritas en HTML. Dominio 90%
+                        </p> 
+                    </li>
+                    <li>
+                        <div class="lista__titulo">
+                            <i class="fab fa-js"></i>
+                            <h4>Java Script</h4>
+                        </div>
+                        <p>Lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje. Dominio 80%
+                        </p> 
+                    </li>
+                    <li>
+                        <div class="lista__titulo">
+                            <i class="fab fa-react"></i>
+                            <h4>React JS</h4>
+                        </div>
+                        <p>Es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres. Dominio 80%
+                        </p> 
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ======= Separador Section ======= -->
+
+        <section id="portfolio" class="separador">
+            <div class="separador__contenido">
+                <div class="separador__contenido-texto">
+                    <h4>Nuestro trabajo</h4>
+                    <p class="parrafo">Administrar Base de Datos SQL, Oracle <br> 
+                        Contruccion y Desarrollo Web
+                    </p>
+                </div>
+                
+                <div class="separador__contenido-logo">
+                    <img loading="lazy" src="assets/img/logos/logo_gds.jpg" alt="Logo de empresa">
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- ======= Portfolio Section ======= -->
+        <section class="portfolio section-bg contenedor">
+            <div data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p class="subtitulo-parrafo">       
+                       Proyectos Simples Realizados
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/webcamp.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web</h4>
+                                <p>Web-webcamp</p>
+                                <div class="portfolio-links">
+                                    <a href="https://falabellawebcamp.netlify.app" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/App-Salón-de-Belleza.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App</h4>
+                                <p>App-Salon de belleza</p>
+                                <div class="portfolio-links">
+
+                                    <a href="https://salonpeluqueria.netlify.app/" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Bienes-raices.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web</h4>
+                                <p>Web-Bienes Raices</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/portfolio/Bienes-raices.webp" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web-Bienes Raices"><i
+                                            class="bx bx-plus"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Blog-de-Café.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web</h4>
+                                <p>Web-Blog de Cafe</p>
+                                <div class="portfolio-links">
+
+                                    <a href="https://blogdecafeina.netlify.app/" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Menu.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web</h4>
+                                <p>Web-Menu bar </p>
+                                <div class="portfolio-links">
+                                    <a href="https://menubarqr.netlify.app" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Rock-EDM-Festival.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web</h4>
+                                <p>Web-RockFestival</p>
+                                <div class="portfolio-links">
+                                    <a href="https://musicfestivalweb.netlify.app" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Counter-App.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App</h4>
+                                <p>App-contador</p>
+                                <div class="portfolio-links">
+
+                                    <a href="https://contadorapp.netlify.app" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/citas.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App</h4>
+                                <p>App-Pacientes de veterinaria</p>
+                                <div class="portfolio-links">
+
+                                    <a href="https://dogandcat.netlify.app" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Busca-Clima.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App</h4>
+                                <p>App-Buscador de climas</p>
+                                <div class="portfolio-links">
+                                    <a href="https://buscaclima.netlify.app/" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/Cotizar-Criptomonedas.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App</h4>
+                                <p>App-Cotización de Criptomonedas</p>
+                                <div class="portfolio-links">
+                                    <a href="https://criptochange.netlify.app/" class="portfolio-details-lightbox"
+                                        data-glightbox="type: external" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- Fin sección PORTFOLIO -->
+
+        <!-- Inicio del contacto -->
+        <section id="contacto" class="contenedor">
+            <div class="subtitulo" data-aos="fade-up">
+                <h2 id=" servicios">Contacto</h2>
+            </div>
+
+            <div class="contenedor-contacto">
+
+                <div class="contenedor-contacto__micontacto">
+
+                    <div class="info" data-aos="fade-up">
+                        <i class="bi bi-geo-alt"></i>
+                        <div class="personales">
+                            <h3>Localidad:</h3>
+                            <p>Pucallpa-Ucayali-Perú</p>
+                        </div>
+                    </div>
+
+                    <div class="info" data-aos="fade-up">
+                        <i class=" bi bi-envelope"></i>
+                        <div class="personales">
+                            <a href="mailto:systemgds@gmail.com?Subject=Información%20sobre%20páginas%20web">
+                                <h3>E-mail:</h3>
+                                <p>systemgds@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="info" data-aos="fade-up">
+                        <i class=" bi bi-phone"></i>
+                        <div class="personales">
+                            <a href="tel:+51961638535">
+                                <h3>Teléfono:</h3>
+                                <p>+51 961 638 535</p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="redes redes-pie" data-aos="fade-up">
+
+                        <a href="https://api.whatsapp.com/send?phone=+51961638535&text=Hola" target="_blank"><i
+                                class='pie-iconos bx bxl-whatsapp'></i></a>
+
+                        <a href="https://t.me/systemgds" target="_blank"><i class='pie-iconos bx bxl-telegram'></i></a>
+
+                        <a href="https://www.instagram.com/systemgds/" target="_blank"><i class="pie-iconos bx bxl-instagram"></i></a>
+
+                        <a href="https://github.com/systemgds" target="_blank"><i
+                                class='pie-iconos bx bxl-github'></i></a>
+
+                    </div>
+
+
+                </div>
+
+                <!-- Inicio Mailchimp Signup Form -->
+
+                <div id="mc_embed_signup" data-aos="fade-up">
+                    <form
+                        action="https://app.us1.list-manage.com/subscribe/post?u=4d2f362ab0fdea70be24cbdd3&amp;id=698f6f3e58"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+
+                            <div class="indicates-required"><span class="asterisk">*</span> Campos obligatorios</div>
+
+                            <div class="migrupo">
+                                <div class="mc-field-group migrupo-label">
+                                    <label for="mce-FNAME">Nombre </label>
+                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                                </div>
+
+                                <div class="mc-field-group migrupo-label">
+                                    <label for="mce-LNAME">Apellido </label>
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                                </div>
+                            </div>
+
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">E-mail <span class="asterisk">*</span>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+
+
+
+                            <div class="mc-field-group size1of2">
+                                <label for="mce-BIRTHDAY-month">Cumpleaños </label>
+                                <div class="datefield">
+                                    <span class="subfield monthfield"><input class="birthday " type="text"
+                                            pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2"
+                                            name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> /
+                                    <span class="subfield dayfield"><input class="birthday " type="text"
+                                            pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2"
+                                            name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>
+                                    <span class="small-meta nowrap">( mm / dd )</span>
+                                </div>
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-MMERGE3">Comentario <span class="asterisk">*</span> </label>
+                                <textarea type="text" value="" name="MMERGE3" class="comentario-crf" id="mce-MMERGE3"
+                                    rows="8"></textarea>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_4d2f362ab0fdea70be24cbdd3_698f6f3e58" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Enviar" name="subscribe"
+                                    id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+                (function ($) {
+                    window.fnames = new Array();
+                    window.ftypes = new Array();
+                    fnames[0] = 'EMAIL';
+                    ftypes[0] = 'email';
+                    fnames[1] = 'FNAME';
+                    ftypes[1] = 'text';
+                    fnames[2] = 'LNAME';
+                    ftypes[2] = 'text';
+                    fnames[5] = 'BIRTHDAY';
+                    ftypes[5] = 'birthday';
+                    fnames[3] = 'MMERGE3';
+                    ftypes[3] = 'text';
+                    /*
+                     * Translated default messages for the $ validation plugin.
+                     * Locale: ES
+                     */
+                    $.extend($.validator.messages, {
+                        required: "Este campo es obligatorio.",
+                        remote: "Por favor, rellena este campo.",
+                        email: "Por favor, escribe una dirección de correo válida",
+                        url: "Por favor, escribe una URL válida.",
+                        date: "Por favor, escribe una fecha válida.",
+                        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+                        number: "Por favor, escribe un número entero válido.",
+                        digits: "Por favor, escribe sólo dígitos.",
+                        creditcard: "Por favor, escribe un número de tarjeta válido.",
+                        equalTo: "Por favor, escribe el mismo valor de nuevo.",
+                        accept: "Por favor, escribe un valor con una extensión aceptada.",
+                        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+                        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+                        rangelength: $.validator.format(
+                            "Por favor, escribe un valor entre {0} y {1} caracteres."),
+                        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+                        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+                        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+                    });
+                }(jQuery));
+                var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
+
+        </section>
+        <!-- Fin del contacto -->
+
+    </main>
+
+    <!-- Inicio del FOOTER -->
+    <footer class="piepagina-crf">
+
+        <ul class="pie-crf">
+            <li data-aos="zoom-in">
+                <h3>Sobre <span>Nosotros</span></h3>
+                <p>Pellentesque ac gravida nunc, eget rutrum libero. Duis eget quam molestie, euismod odio vitae,
+                    posuere
+                    sapien.
+                </p>
+            </li>
+            <li></li>
+            <li data-aos="zoom-in">
+                <h3>Redes <span>Sociales</span></h3>
+                <div class="redes redes-pie">
+
+                    <a href="https://api.whatsapp.com/send?phone=+51961638535&text=Hola" target="_blank"><i
+                            class='pie-iconos bx bxl-whatsapp'></i></a>
+
+                    <a href="https://t.me/systemgds" target="_blank"><i class='pie-iconos bx bxl-telegram'></i></a>
+
+                    <a href="https://www.instagram.com/systemgds/" target="_blank"><i class="pie-iconos bx bxl-instagram"></i></a>
+
+                    <a href="https://github.com/systemgds" target="_blank"><i class='pie-iconos bx bxl-github'></i></a>
+
+                </div>
+            </li>
+        </ul>
+
+        <div class="copyryght">
+            <p>Todos los derechos reservados SystemGDS
+                <span id="year"></span>
+                <i class='bx bx-copyright'></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Spin preloader -->
+    <div id="preloader"></div>
+    <!-- Boton Subir -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    
+    <!-- script de las animaciones -->
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 25,
+            duration: 4000,
+            easing: 'ease'
+        });
+    </script>
+
+    <!-- Mi scripts -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
