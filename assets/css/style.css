@@ -17,9 +17,9 @@ a:hover {
   text-decoration: none;
 } */
 
-/* h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-} */
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -196,11 +196,11 @@ a:hover {
   }
 }
 
-/* .nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
   color: #fff;
   background: #0563bb;
-} */
-/* 
+} 
+
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu li:hover > a span {
   color: #fff;
 }
@@ -212,7 +212,7 @@ a:hover {
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block;
-} */
+}
 
 /**
 * Mobile Navigation 

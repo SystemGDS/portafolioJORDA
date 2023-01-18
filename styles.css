@@ -294,11 +294,13 @@ a {
 }
 
 .titulo__principal-nombre {
-  color: var(--oscuro);
+  color: var(--hover);
   font-family: var(--titulos);
-  font-size: 2rem;
+  font-size: 5rem;
   margin-left: 5rem;
   z-index: 1000;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .titulo__principal-nombre::before {
